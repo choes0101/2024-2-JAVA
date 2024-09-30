@@ -15,20 +15,21 @@ public class Lab1 {
         // 평균 배열 생성
         int[] average = new int[grade.length];
 
-        // total[] 계산
+        // 총합을 계산하여 total[]에 저장
         for (int i = 0; i < grade.length; i++) {
             for (int j = 0; j < grade[i].length; j++) {
                 total[i] += grade[i][j];
             }
         }
 
-        // average[] 계산
+        // 평균을 계산하여 average[]에 저장
         for (int i = 0; i < grade.length; i++) {
             average[i] = total[i] / grade.length;
         }
 
         // 출력
         for (int i = 0; i < grade.length; i++) {
+                // 학생 이름, 성적, 총점, 평균을 탭으로 구분하여 출력
                 System.out.println(name[i] + "\t" + grade[i][0] + "\t" + grade[i][1] + "\t" + grade[i][2] + "\t" + total[i] + "\t" + average[i]);
             }
 
