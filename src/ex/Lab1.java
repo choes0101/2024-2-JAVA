@@ -24,7 +24,7 @@ public class Lab1 {
 
         // 평균을 계산하여 average[]에 저장
         for (int i = 0; i < grade.length; i++) {
-            average[i] = total[i] / grade.length;
+            average[i] = total[i] / grade[i].length;
         }
 
         // 출력
