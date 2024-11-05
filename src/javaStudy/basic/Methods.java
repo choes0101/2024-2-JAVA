@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.basic;
 
 public class Methods {
     String name;

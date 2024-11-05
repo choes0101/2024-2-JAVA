@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.basic;
 
 import java.util.Scanner;
 

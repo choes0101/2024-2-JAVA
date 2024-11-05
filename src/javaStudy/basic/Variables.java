@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.basic;
 
 public class Variables {
     //멤버 변수, 인스턴스 변수

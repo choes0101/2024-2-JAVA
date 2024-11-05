@@ -1,4 +1,4 @@
-// 학과 : 컴퓨터 공학과
+// 학과 : 컴퓨터공학과
 // 학번 : 202334757
 // 이름 : 조은성
 package ex;
@@ -30,8 +30,7 @@ public class Lab1 {
         // 출력
         for (int i = 0; i < grade.length; i++) {
                 // 학생 이름, 성적, 총점, 평균을 탭으로 구분하여 출력
-                System.out.println(name[i] + "\t" + grade[i][0] + "\t" + grade[i][1] + "\t" + grade[i][2] + "\t" + total[i] + "\t" + average[i]);
+                System.out.println(name[i] + "\t" + grade[i][0] + "\t\t" + grade[i][1] + "\t\t" + grade[i][2] + "\t\t" + total[i] + "\t\t" + average[i]);
             }
-
     }
 }
