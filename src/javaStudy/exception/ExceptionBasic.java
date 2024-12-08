@@ -1,3 +1,4 @@
+// 202334757 컴퓨터공학전공 조은성
 package javaStudy.exception;
 
 import java.io.FileNotFoundException;
@@ -8,6 +9,7 @@ public class ExceptionBasic {
     if (filename == null) {
       throw new FileNotFoundException("테스트 파일 없음!!");
     }
+
     System.out.println("파일명: " + filename);
   }
 
